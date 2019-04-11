@@ -1,0 +1,149 @@
+body {
+  color: #b0b1b3;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* Стиль шапки */
+header {
+  background-color: #2d3136;
+  padding-top: 66px;
+}
+
+.header__contact {
+  padding-top: 99px;
+}
+
+.header__comment-form {
+  padding-top: 49px;
+  margin-right: 100px;
+}
+
+.header__comment-form__two-input {
+  margin-top: 92px;
+}
+
+.header__comment-form__label {
+  display: block;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+.header__comment-form__label__img {
+  vertical-align: super;
+  margin-left: 18px;
+}
+
+.header__comment-form__input {
+  color: white;
+  padding-top: 10px;
+  padding-left: 30px;
+  background-color: #2f3136;
+  border: none;
+  height: 90px;
+  width: 100%;
+}
+
+.header__comment-form__textarea {
+  color: white;
+  padding-top: 10px;
+  padding-left: 30px;
+  width: 100%;
+  height: 340px;
+  resize: none;
+  border: none;
+  background-color: #2f3136;
+}
+
+.header__block-button {
+  padding-top: 123px;
+  padding-bottom: 111px;
+}
+
+.header__block-button__button {
+  background-color: #be393b;
+  padding: 20px 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#error-block {
+  display: none;
+}
+
+.success-block {
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+.error-block {
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 5px;
+}
+
+/* Стиль блока с контентом */
+.content {
+  padding-bottom: 160px;
+}
+
+.content-header {
+  color: black;
+  padding-top: 167px;
+  padding-bottom: 70px;
+}
+
+.comment-container__blue {
+  text-align: center;
+  margin-top: 75px;
+  background-color: #e9eef3;
+  height: 470px;
+}
+
+.comment-container__green {
+  text-align: center;
+  margin-top: 75px;
+  background-color: #deebde;
+  height: 470px;
+}
+
+.comment-container__header__blue {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #4b596c;
+  color: white;
+}
+
+.comment-container__header__green {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #58ad52;
+  color: white;
+}
+
+.comment-container__mail {
+  margin-top: 50px;
+  color: #4b596c;
+}
+
+.comment-container__text {
+  padding-top: 60px;
+  color: #797885;
+}
+
+/* Блок подвала сайта */
+footer {
+  background-color: #2a2d33;
+  padding-top: 45px;
+  padding-bottom: 65px;
+}
+
+.fb-icon {
+  margin-left: 30px;
+}
